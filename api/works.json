@@ -1,0 +1,74 @@
+[
+    {
+        "Id": "01",
+        "title": "Parkhere",
+        "image": ["assets/image/onboarding.jpg", "assets/image/search.png", "assets/image/payment.jpg", "assets/image/cards.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": true,
+        "link": "https://marvelapp.com/7jcced3",
+        "desc": "This project is build using SketchApp, Parkhere is an app where user can book a parking lot online, easing it's user to book a parking spot from anywhere. The main purpose is to show users where to park nearby users, or to make an instant book from home. It had the negative case where if user parking time limit is reached, it will automatically extend parking time with direct cash payment for time extension.",
+        "palette": ["background: #000", "background: #000"]
+
+    },
+
+    {
+        "Id": "02",
+        "title": "Sekantor",
+        "image": ["assets/image/sk1.jpg", "assets/image/sk2.jpg", "assets/image/sk3.jpg", "assets/image/sk4.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": true,
+        "link": "https://marvelapp.com/1c60hghg"
+    },
+
+    {
+        "Id": "03",
+        "title": "Lorem",
+        "image": ["assets/image/lr1.jpg", "assets/image/lr2.jpg", "assets/image/lr3.jpg", "assets/image/lr4.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": true,
+        "link": "https://marvelapp.com/6ab76gj"
+    },
+
+    {
+        "Id": "04",
+        "title": "Easales",
+        "image": ["assets/image/es1.jpg", "assets/image/es2.jpg", "assets/image/es3.jpg", "assets/image/es4.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": true,
+        "link": "https://marvelapp.com/6cfbadb"
+    },
+
+    {
+        "Id": "05",
+        "title": "Alice",
+        "image": ["assets/image/al1.jpg", "assets/image/al2.jpg", "assets/image/al3.jpg", "assets/image/al4.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": false
+    },
+
+    {
+        "Id": "06",
+        "title": "Cashbac for Business",
+        "image": ["assets/image/cb1.jpg", "assets/image/cb2.jpg", "assets/image/cb3.jpg", "assets/image/cb4.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Web Application - Dashboard",
+        "live": false
+    },
+
+    {
+        "Id": "07",
+        "title": "Deltadata Mandiri",
+        "image": ["assets/image/deltadata01.png", "assets/image/deltadata03.jpg", "assets/image/deltadata04.jpg", "assets/image/deltadata05.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Landing Page",
+        "live": true,
+        "link": "https://www.deltadatamandiri.com/"
+    }
+
+
+]

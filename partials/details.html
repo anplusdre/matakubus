@@ -1,0 +1,57 @@
+<div ng-include="'partials/header.html'"></div>
+
+
+<div class="workDetails">
+    <div class="container">
+
+        <div class="showcase">
+
+            <div class="workContent">
+                <div class="detailSub">
+                    <h1 class="workTitle"> {{work.title}}</h1>
+
+                    <div class="palette">
+
+                        <ul>
+
+                            <li>
+                                <div class="square" style="{{work.palette[0]}}"></div>
+                            </li>
+                            <li>
+                                <div class="square" style="{{work.palette[0]}}"></div>
+                            </li>
+                            <li>
+                                <div class="square" style="{{work.palette[0]}}"></div>
+                            </li>
+                            <li>
+                                <div class="square" style="{{work.palette[0]}}"></div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <p class="desc">{{work.desc}}</p>
+                <div class="subDetail">
+
+
+                </div>
+
+            </div>
+            <div class="rowcard whitebg">
+
+                <div class="card"><a ng-href="details/{{work.title}}"><img ng-src="{{work.image[0]}}"></a></div>
+                <div class="card"><a href="details/{{work.title}}" target="_blank"><img ng-src="{{work.image[1]}}"></a></div>
+                <div class="card"><a href="details/{{work.title}}" target="_blank"><img ng-src="{{work.image[2]}}"></a></div>
+                <div class="card"><a href="details/{{work.title}}" target="_blank"><img ng-src="{{work.image[3]}}"></a></div>
+
+            </div>
+
+
+
+            <a class="btn cta small" href="{{work.link}}">See it Live</a>
+
+        </div>
+    </div>
+
+</div>

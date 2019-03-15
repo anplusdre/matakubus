@@ -1,0 +1,123 @@
+<div ng-include="'partials/header.html'"></div>
+<!--<?php include '/./partials/header.html';?>-->
+
+<div ng-controller="worksController">
+    <!--
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo-color.svg"></a>
+        </div>
+
+        <div class="nav">
+            <ul class="whiteNav">
+                <li><a href="kit">Free Kit</a></li>
+                <li><a href="works">Works</a></li>
+                <li><a href="pricing">Pricing</a></li>
+                <li><a class="btn cta" href="contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div style="clear: both"></div>
+    </div>
+</div>
+-->
+
+    <div class="spacing big"></div>
+    <div class="content">
+        <div class="container">
+            <div class="text works">
+                <label>OUR WORKS</label>
+
+                <h1>Tons of example of our track</h1>
+
+                <p>We do alot of UI Design and sometimes we do the frontend too, we’re not just random dudes who decided
+                    to provide freelance UI Design services. We’re also a professional with 5+ years experience working with companies.
+                    From Small Startups to Unicorn. Our design covered all platform from Responsive web to mobile Apps. also we’re not just
+                    standing in aestethic perspective, bu we consider typeface rules such as x-Height, legibility, readability, and heatmaps.
+                    Coloring is important too, we build color pattern following the material design equation of color palette, and we differentiate
+                    between categorical, sequential, and semantic colors. And our method is enough is enough, we make things as simple and
+                    effiecent as we can. Interested? Contact Us
+                </p>
+            </div>
+
+            <div class="spacing big"></div>
+
+            <!--
+<div class="showcase">
+    <div class="topContent">
+        <h1 class="title">
+            Project <label>Parkhere</label>
+        </h1>
+        <div class="expand">
+            <a href="#">
+                <p>More</p>
+                <img src="assets/expand.svg">
+            </a>
+        </div>
+    </div>
+    <div class="rowcard">
+        <div class="card">
+            <img src="assets/Onboarding.jpg">
+        </div>
+        <div class="card">
+            <img src="assets/Onboarding.jpg">
+        </div>
+        <div class="card">
+            <img src="assets/Onboarding.jpg">
+        </div>
+        <div class="card">
+            <img src="assets/Onboarding.jpg">
+        </div>
+    </div>
+
+
+</div>
+-->
+
+            <div class="showcase fade" ng-repeat="work in works">
+                <div class="topContent">
+                    <div class="title">
+                        <a ng-href="details/{{work.title}}">Project <label>"{{work.title}}"</label></a>
+                        <!--                        <img ng-src="{{work.logo}}">-->
+                        <p>{{work.type}}</p>
+                    </div>
+                    <div class="expand">
+
+                        <div class="tools">
+                            <img ng-src="{{work.tools[0]}}">
+                            <img ng-src="{{work.tools[1]}}">
+                        </div>
+
+                        <a href="#" class="btn main">
+                            <p>Download</p>
+                            <img src="assets/download.svg">
+                        </a>
+
+                        <a href="{{work.link}}" target="_blank" ng-hide="{{work.live}} == false">
+                            <p>Live</p>
+                            <img src="assets/expand.svg">
+                        </a>
+
+                        <!--                        <p ng-hide="{{work.dlink}} == ">Not available yet</p>-->
+                    </div>
+                </div>
+                <div class="rowcard">
+
+                    <div class="card"><a href="#"><img ng-src="{{work.image[0]}}"></a></div>
+                    <div class="card"><a href="#"><img ng-src="{{work.image[1]}}"></a></div>
+                    <div class="card"><a href="#"><img ng-src="{{work.image[2]}}"></a></div>
+                    <div class="card"><a href="#"><img ng-src="{{work.image[3]}}"></a></div>
+
+                </div>
+
+                <!--MODAL-->
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
