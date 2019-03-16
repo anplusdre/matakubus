@@ -529,6 +529,40 @@ button {
 
 }
 
+
+.hero {
+
+    min-height: 100vh;
+    margin-top: 20vh;
+
+    .service {
+        display: flex;
+        vertical-align: middle;
+        align-items: top;
+
+        .hero-image {
+            padding-right: 16px;
+
+            img {
+
+                //                max-width: 100%;
+            }
+        }
+
+        .hero-description {
+            padding-left: 16px;
+            margin-top: 24px;
+
+            h1 {
+                padding-bottom: 32px;
+            }
+        }
+    }
+}
+
+//OTHER
+
+
 .fade {
     transition: 1s linear all;
     -webkit-transition: 1s linear all;
