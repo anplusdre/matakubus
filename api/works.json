@@ -68,6 +68,26 @@
         "type": "Landing Page",
         "live": true,
         "link": "https://www.deltadatamandiri.com/"
+    },
+
+    {
+        "Id": "08",
+        "title": "Delta Hotel",
+        "image": ["assets/image/image01.png", "assets/image/image02.jpg", "assets/image/image03.jpg", "assets/image/image04.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": true,
+        "link": "https://marvelapp.com/1f486h4g"
+    },
+
+    {
+        "Id": "09",
+        "title": "Nevermaps",
+        "image": ["assets/image/dh01.jpg", "assets/image/dh02.jpg", "assets/image/dh03.jpg", "assets/image/dh04.jpg"],
+        "tools": ["assets/image/sketch.svg", "assets/image/ai.svg", "assets/image/marvel.svg"],
+        "type": "Mobile Apps",
+        "live": true,
+        "link": "https://marvelapp.com/50cc97d"
     }
 
 
